@@ -10,6 +10,8 @@ public class HelloController {
     @RequestMapping("hello")
     public String hello() {
 
+        System.out.println("测试ticket_666");
+
         return "my first springboot program,happy motherfucker";
     }
 }
